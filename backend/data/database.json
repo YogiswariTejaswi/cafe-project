@@ -1,0 +1,92 @@
+{
+  "settings": {
+    "cafeName": "Culture & Scoop",
+    "description": "Artisanal specialty coffee, handcrafted pastries, and premium organic ice cream. Made fresh, served with love.",
+    "theme": "espresso",
+    "announcement": "Daily Special: Lavender Honey Latte with a fresh butter croissant for only $8.50!",
+    "announcementEnabled": true,
+    "socialMedia": {
+      "instagram": "https://instagram.com/cultureandscoop",
+      "facebook": "https://facebook.com/profile.php?id=cultureandscoop",
+      "twitter": "https://twitter.com/cultureandscoop"
+    },
+    "contact": {
+      "address": "123 Coffee & Cream Lane, Food District, NY 10001",
+      "hours": "Mon-Fri: 7:00 AM - 8:00 PM | Sat-Sun: 8:00 AM - 9:00 PM",
+      "phone": "(555) 019-2834",
+      "email": "hello@culturescoop.com"
+    }
+  },
+  "menuItems": [
+    {
+      "id": "1",
+      "name": "House Espresso Blend",
+      "description": "Medium-dark roast with notes of dark chocolate, brown sugar, and a smooth citrus finish.",
+      "price": 3.75,
+      "category": "coffee",
+      "tags": ["Hot", "House Blend"],
+      "available": true,
+      "dailySpecial": false
+    },
+    {
+      "id": "2",
+      "name": "Ceremonial Matcha Latte",
+      "description": "Stone-ground Japanese Uji matcha whisked with steamed organic oat milk and a touch of agave.",
+      "price": 5.25,
+      "category": "tea",
+      "tags": ["Hot", "Cold", "Vegan"],
+      "available": true,
+      "dailySpecial": false
+    },
+    {
+      "id": "3",
+      "name": "Classic Butter Croissant",
+      "description": "Flaky, multi-layered French pastry baked fresh daily with organic butter.",
+      "price": 4.00,
+      "category": "pastries",
+      "tags": ["Freshly Baked", "Vegetarian"],
+      "available": true,
+      "dailySpecial": false
+    },
+    {
+      "id": "4",
+      "name": "Lavender Honey Latte",
+      "description": "Double espresso shot with floral lavender-infused syrup, wild honey, and creamy milk.",
+      "price": 5.50,
+      "category": "coffee",
+      "tags": ["Hot", "Sweet", "Specialty"],
+      "available": true,
+      "dailySpecial": true
+    },
+    {
+      "id": "5",
+      "name": "Salted Caramel Gelato",
+      "description": "Creamy house-churned gelato with fleur de sel and a rich swirl of caramelized sugar.",
+      "price": 6.00,
+      "category": "icecream",
+      "tags": ["Cold", "Gluten-Free", "Best Seller"],
+      "available": true,
+      "dailySpecial": false
+    },
+    {
+      "id": "6",
+      "name": "Triple Berry Waffle Bowl",
+      "description": "Warm homemade waffle bowl loaded with vanilla bean ice cream, fresh strawberries, blueberries, and raspberries.",
+      "price": 8.50,
+      "category": "icecream",
+      "tags": ["Cold", "Indulgent"],
+      "available": true,
+      "dailySpecial": false
+    },
+    {
+      "id": "7",
+      "name": "Rosemary Garlic Focaccia",
+      "description": "House-baked Italian bread drizzled with extra virgin olive oil, sea salt, and fresh rosemary.",
+      "price": 4.50,
+      "category": "pastries",
+      "tags": ["Freshly Baked", "Vegan"],
+      "available": false,
+      "dailySpecial": false
+    }
+  ]
+}

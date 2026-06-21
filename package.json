@@ -1,0 +1,13 @@
+{
+  "name": "cafe-menu-hub-root",
+  "version": "1.0.0",
+  "description": "Root configuration for Cafe & Ice Cream Parlor Menu Hub",
+  "private": true,
+  "scripts": {
+    "install:frontend": "npm --prefix frontend install",
+    "install:backend": "npm --prefix backend install",
+    "install-all": "npm run install:frontend && npm run install:backend",
+    "dev": "node scripts/run-dev.js",
+    "build": "npm --prefix frontend run build"
+  }
+}

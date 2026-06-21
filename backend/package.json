@@ -1,0 +1,11 @@
+{
+  "name": "cafe-menu-hub-backend",
+  "version": "1.0.0",
+  "description": "Backend API server for Cafe & Ice Cream Parlor Menu Hub",
+  "main": "server.js",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
